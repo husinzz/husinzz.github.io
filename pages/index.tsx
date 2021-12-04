@@ -1,8 +1,7 @@
 import type { NextPage } from "next";
-import Head from "next/head";
 import Link from "next/link";
 import Footer from "../components/footer";
-import AppPage, { project } from "../components/project-section";
+import { project } from "../components/project-section";
 
 const projects: project[] = [
   {
