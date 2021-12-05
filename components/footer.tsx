@@ -17,10 +17,10 @@ export default function Footer() {
           </a>
         </div>
         <div className="text-white flex items-center justify-center">
-          Made with code
+          Im not a designer : )
         </div>
         <div className="text-white flex items-center justify-center">
-          Copyright © 2021 Artorios "Beaver" Fart
+          Copyright © 2021 Urdreamboi, This is a personal portfolio 
         </div>
       </div>
       <div className="block md:hidden">

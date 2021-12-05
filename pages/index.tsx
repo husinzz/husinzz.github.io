@@ -74,7 +74,7 @@ const Home: NextPage = () => {
               <Link href="/work">
                 <a className="text-white text-2xl">Our Work</a>
               </Link>
-              <span className="text-2xl text-white">|</span>
+              <span className="text-2xl text-white px-2">|</span>
               <Link href="/about">
                 <a className="text-white text-2xl">About us</a>
               </Link>
