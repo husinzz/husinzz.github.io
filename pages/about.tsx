@@ -1,9 +1,13 @@
 import Link from "next/link";
+import Headers from "../components/header";
 
 export default function About() {
   return (
     <>
       <div className="md:w-8/12 md:mx-auto">
+        <Headers title="Apalah Tech - About">
+
+        </Headers>
         <div className="py-10 text-right">
           <Link href="/">
             <a className="text-white text-xl mx-3">Go back home</a>
