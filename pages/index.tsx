@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         </SEO>
         <div className="flex h-full flex-col items-center justify-center">
           <div className="">
-            <h1 className="font-bold text-4xl text-white">Hi, Welkom</h1>
+            <h1 className="font-bold text-4xl text-white">Hi, Welcome</h1>
             <h2 className="text-xl text-white">We make awesome apps</h2>
           </div>
           <nav className="md:hidden py-5">

@@ -15,8 +15,10 @@ export default function About() {
         </div>
         <main>
           <h1 className="text-4xl font-bold px-2 text-white">About us</h1>
-          <p className="md:text-xl text-md text-white py-2 px-2 text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam vero veritatis quos enim facilis quod ea atque doloremque vitae laborum. Repudiandae eius, deleniti hic maiores ex nobis sit minima aliquid. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum vel harum reprehenderit commodi voluptatem tenetur et aliquam consequuntur ipsa hic ea quos cum quod excepturi dolorem est distinctio, consectetur eligendi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta repellendus aspernatur doloribus, beatae doloremque at dicta, nihil, rerum totam ipsa eius aliquid eaque. Minima totam enim corrupti tempora nesciunt doloribus.</p>
-          <p className="md:text-xl text-md text-white py-2 px-2 text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam vero veritatis quos enim facilis quod ea atque doloremque vitae laborum. Repudiandae eius, deleniti hic maiores ex nobis sit minima aliquid. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum vel harum reprehenderit commodi voluptatem tenetur et aliquam consequuntur ipsa hic ea quos cum quod excepturi dolorem est distinctio, consectetur eligendi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta repellendus aspernatur doloribus, beatae doloremque at dicta, nihil, rerum totam ipsa eius aliquid eaque. Minima totam enim corrupti tempora nesciunt doloribus.</p>
+          <p className="md:text-xl text-md text-white py-2 px-2 text-justify">Hi, Welcome to apalah tech, this is the place where i express my passion when it comes to technology.</p>
+          <p className="md:text-xl text-md text-white py-2 px-2 text-justify">The name apalah comes from the word "Whatever" it literally just mean whatever, it comes from frustration of trying to make a meaningful name for a website to show all my Technological endeavors. currently im pursuing my passion in web development while also working as a freelancer and a full time web developer.</p>
+          <p className="md:text-xl text-md text-white py-2 px-2 text-justify">Thats all lol got nothin else</p>
+
         </main>
       </div>
     </>
