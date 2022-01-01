@@ -37,7 +37,7 @@ export default function Work() {
       {/* Desktop */}
       <div className="hidden md:flex justify-between items-center p-2 text-right">
         <div className="flex justify-start items-center py-2">
-          <h2 className="text-white text-2xl">things i've made</h2>
+          <h2 className="text-white text-2xl">things ive made</h2>
           <button
             className={
               "border px-2 mx-2 " +
@@ -69,7 +69,7 @@ export default function Work() {
       {/* Mobile */}
       <div className="md:hidden py-2 text-center px-1">
         <div className="flex items-center justify-between p-2">
-          <h2 className="text-white text-2xl">things i've made</h2>
+          <h2 className="text-white text-2xl">things ive made</h2>
           <Link href="/">
             <a className="text-white text-2xl">back</a>
           </Link>
