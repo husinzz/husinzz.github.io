@@ -1,15 +1,15 @@
 import type { NextPage } from "next";
 import Link from "next/link";
 import Footer from "../components/footer";
-import Headers from "../components/header";
+import SEO from "../components/seo";
 
 const Home: NextPage = () => {
   return (
     <>
       <section className="h-full md:grid grid-cols-2 max-w-[1440px] mx-auto">
-        <Headers title="Apalah Tech - Home">
+        <SEO title="Home - Apalah Tech">
 
-        </Headers>
+        </SEO>
         <div className="flex h-full flex-col items-center justify-center">
           <div className="">
             <h1 className="font-bold text-4xl text-white">Hi, Welkom</h1>

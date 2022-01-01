@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import ProjectCard from "../components/project-card";
-import Headers from "../components/header";
+import SEO from "../components/seo";
 
 const apps: app[] = [
   {
@@ -31,9 +31,9 @@ export default function Work() {
 
   return (
     <section className="h-full max-w-[1024px] mx-auto">
-      <Headers title="Apalah Tech - Our Work">
+      <SEO title="Our Work - Apalah Tech">
 
-      </Headers>
+      </SEO>
       {/* Desktop */}
       <div className="hidden md:flex justify-between items-center p-2 text-right">
         <div className="flex justify-start items-center py-2">
