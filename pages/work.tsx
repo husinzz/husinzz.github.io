@@ -24,6 +24,15 @@ const apps: app[] = [
   },
 ];
 
+const frontendMentor = [
+  {
+    name: "NFT Preview card",
+    link: "https://urdreamboi.github.io/frontend-mentor-NFTPrevewCard/",
+    background: "/apps/nftreviewcard.png",
+    platform: "Web",
+  },
+]
+
 export default function Work() {
   const [filter, setFilter] = useState([]);
   const [mobileActive, setMobile] = useState(false);
@@ -101,7 +110,7 @@ export default function Work() {
         </div>
       </div>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-3 gap-y-1">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-3 gap-y-1 mb-5">
         {apps.map((app, index) => {
           if (filter.length <= 0) {
             return <ProjectCard app={app} key={index} />;
@@ -109,6 +118,12 @@ export default function Work() {
             return <ProjectCard app={app} key={index} />;
           }
         })}
+      </div>
+
+      <hr />
+      <p className="text-center text-white text-2xl my-2">Frontend Mentor Challanges</p>
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-3 gap-y-1 mb-5">
+        {frontendMentor.map((app, index) => <ProjectCard app={app} key={index} />)}
       </div>
     </section>
   );

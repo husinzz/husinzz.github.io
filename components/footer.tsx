@@ -10,7 +10,7 @@ export default function Footer() {
           <a href="https://wa.me/6282219738846">
             <i className="bg-white rounded-full text-black text-2xl p-2 mx-2 fab fa-whatsapp"></i>
           </a>
-          <a href="https://linkedin/in/husinzz">
+          <a href="https://www.linkedin.com/in/husinzz/">
             <i className="bg-white rounded-full text-black text-2xl p-2 mx-2 fab fa-linkedin"></i>
           </a>
           <a href="https://www.youtube.com/channel/UC2kAQEKEYzDF9CuP1qr5AUw">
