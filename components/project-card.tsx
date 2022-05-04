@@ -9,7 +9,7 @@ export default function ProjectCard({ app }) {
     <div
       onMouseOver={() => setVC(true)}
       onMouseLeave={() => setVC(false)}
-      className="mx-auto relative justify-center items-center flex overflow-hidden w-[calc(90%+20px)] h-[200px] border rounded-xl">
+      className="mx-auto relative mb-3 justify-center items-center flex overflow-hidden w-[calc(90%+20px)] h-[200px] border rounded-xl">
       <img src={app.background} className="min-h-full min-w-full" />
       {/* <Image src={app.background} layout="fill" loader={app.background}/> */}
       <Link href={app.link}>

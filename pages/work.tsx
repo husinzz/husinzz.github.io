@@ -17,15 +17,19 @@ const apps: app[] = [
     platform: "Web",
   },
   {
-    name: "ToNote-Try",
-    link: "#",
-    background: "/apps/tonote.png",
-    platform: "Mobile",
-  },
-  {
     name : "KawanCerita",
-    link: "",
+    link: "https://husinzz.github.io/frontend-kawancerita/",
     background: "/apps/kawancerita.png",
+    platform: "Web"
+  }, {
+    name : "Instamock-try",
+    link: "https://github.com/husinzz/instamock-try",
+    background: "/apps/instamock.png",
+    platform: "Web"
+  }, {
+    name : "CrowTech-jobApp",
+    link: "https://husinzz.github.io/landingpage-try-1/",
+    background: "/apps/crow.png",
     platform: "Web"
   }
 ];
@@ -33,8 +37,13 @@ const apps: app[] = [
 const frontendMentor = [
   {
     name: "NFT Preview card",
-    link: "https://urdreamboi.github.io/frontend-mentor-NFTPrevewCard/",
+    link: "https://husinzz.github.io/frontend-mentor-NFTPrevewCard/",
     background: "/apps/nftreviewcard.png",
+    platform: "Web",
+  },{
+    name: "Insure Landing Page",
+    link: "https://husinzz.github.io/insure-landing-page/",
+    background: "/apps/insure.png",
     platform: "Web",
   },
 ]
