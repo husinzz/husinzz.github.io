@@ -20,7 +20,7 @@ export default function Footer() {
         <div className="text-white flex items-center justify-center">
         </div>
         <div className="text-white flex items-center justify-center">
-          Copyright © 2021 Urdreamboi, This is a personal portfolio 
+          Copyright © This is a personal portfolio 
         </div>
       </div>
       {/* Mobile */}

@@ -22,6 +22,12 @@ const apps: app[] = [
     background: "/apps/tonote.png",
     platform: "Mobile",
   },
+  {
+    name : "KawanCerita",
+    link: "",
+    background: "/apps/kawancerita.png",
+    platform: "Web"
+  }
 ];
 
 const frontendMentor = [

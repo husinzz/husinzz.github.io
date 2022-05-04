@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function ProjectCard({ app }) {
   const [showCaption, setVC] = useState(false); // Visible Caption
@@ -8,20 +9,16 @@ export default function ProjectCard({ app }) {
     <div
       onMouseOver={() => setVC(true)}
       onMouseLeave={() => setVC(false)}
-      className="mx-auto relative justify-center items-center flex overflow-hidden w-[calc(90%+20px)] border rounded-xl">
+      className="mx-auto relative justify-center items-center flex overflow-hidden w-[calc(90%+20px)] h-[200px] border rounded-xl">
       <img src={app.background} className="min-h-full min-w-full" />
-      <div
-        className={
-          (showCaption ? "absolute" : "hidden") +
-          " min-h-full min-w-full bg- absolute opacity-50"
-        }></div>
+      {/* <Image src={app.background} layout="fill" loader={app.background}/> */}
       <Link href={app.link}>
         <a
           className={
             (showCaption ? "absolute" : "hidden") +
             " top-3/4 left-1/2 -translate-x-1/2 border bg-white"
           }>
-          <p className="text-black px-2">{app.name}</p>
+          <p className="text-black px-2">Visit</p>
         </a>
       </Link>
     </div>
